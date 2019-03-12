@@ -23,8 +23,8 @@ public class Controlador {
 		//aqui van los m�todos que se invocan de Modelo (Mundo) y de Vista y que ejecutar�n el programa.
 		
 		bd.getA().EscribirArchivo(bd.getDato());
-		bd.getP().getPropiedades();
 		gui.escribirDato(bd.getA().LeerArcivo());
+		//bd.getP().getPropiedades();
 	}
 
 }
